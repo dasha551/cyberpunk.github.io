@@ -1,0 +1,257 @@
+@font-face {
+    font-family: "Archangelsk";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Archangelsk"),
+         /* Если не получилось, загрузит woff2 */
+        url("Archangelsk.ttf")
+}
+
+
+body{
+    margin: 0;
+    min-width: 1200px;
+}
+.header{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.header-logo{
+    padding-left: 300px;
+    padding-top: 20px;
+}
+.header-nav{
+    padding-left: 900px;
+    margin-top: -50px;
+}
+.nav-item{
+    padding-right: 30px;
+}
+
+.rentagle{
+    width: 450px;
+    height: 280px;
+    background-color: #F8F200;
+    margin-top: 377px;
+    margin-left: 790px;
+    border-top-left-radius:30px;
+    border-top-right-radius:0;
+    border-bottom-right-radius:30px;
+    border-bottom-left-radius:0;
+
+}
+.text{
+    font-size: 50px;
+    font-family: Archangelsk;
+    margin-top: -270px;
+    margin-left: 825px;
+}
+
+
+.button {
+    background-color: #000000;
+    color: #F8F200;
+    text-decoration: none;
+    padding: 20px 28px;
+    font-weight: 700;
+    font-family: Roboto;
+    margin-left: 825px;
+}
+
+.text-h{
+    font-family: Archangelsk;
+    font-size: 60px;
+    margin-left: 230px;
+    margin-top: 50px;
+}
+
+.big-text{
+    font-family: Roboto;
+    color: #777777;
+    font-size: 16px;
+    word-spacing: 10px;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-left: 230px;
+}
+.blue-text{
+    color: #52BEDC;
+    font-size: 20px;
+}
+
+.photo3{
+    margin-left: 590px;
+    position: top;
+    margin-top: -370px;
+}
+.photo-2{
+    margin-left: 150px;
+
+}
+.photo{
+    margin-left: 35px;
+    margin-top: 30px;
+}
+.image-header{
+    margin-top: 100px;
+    margin-left: 170px;
+}
+.header-text{
+    font-family: Archangelsk;
+    font-size: 50px;
+    margin-left: 330px;
+    margin-top: -70px;
+    color: #ffffff;
+}
+.headertext-big{
+    font-family: Roboto;
+    color: #ffffff;
+    font-size: 16px;
+    word-spacing: 10px;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-left: 175px;
+}
+.form{
+    font-family: Roboto;
+    font-size: 20px;
+    margin-left: 175px;
+    margin-top: 50px;
+    line-height: 40px;
+    color: #fff;
+}
+.submit{
+    color: #000000;
+    background-color: #F8F200;
+    text-decoration: none;
+    padding: 20px 48px;
+    font-weight: 400;
+    font-style: 20px;
+    font-family: Roboto;
+}
+.image-form{
+    margin-top: -350px;
+    margin-left: 500px;
+}
+.form-bg {
+    background-image: url(bg2.png);
+    margin-top: 50px;
+}
+
+.image-pc{
+    margin-top: 80px;
+    margin-left: 150px;
+}
+.nav-game{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.pc-text{
+    font-family: Archangelsk;
+    font-size: 50px;
+}
+.pc-text-big{
+    font-family: Roboto;
+    font-size: 18px;
+    word-spacing: 10px;
+    line-height: 25px;
+}
+.txt-final{
+    margin-left: 750px;
+    margin-top: -450px;
+}
+.color-text{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 745px;
+    margin-top: 20px;
+}
+.col-txt{
+    margin-left: 30px;
+    margin-top: -30px;
+}
+.work-text{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 745px;
+    margin-top: 20px;
+}
+.work-txt{
+    margin-left: 30px;
+    margin-top: -30px;
+}
+.book-text{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 745px;
+    margin-top: 20px;
+}
+.book-txt{
+    margin-left: 30px;
+    margin-top: -30px;
+}
+
+.button-2{
+    background-color: #000000;
+    color: #F8F200;
+    text-decoration: none;
+    padding: 20px 28px;
+    font-weight: 700;
+    font-family: Roboto;
+    margin-left: 825px;
+}
+.pc{
+    background-color: #F8F200;
+    padding: 30px;
+}
+.img-sale{
+    background-color: #000;
+}
+.head-buy-text{
+    font-family: Archangelsk;
+    font-size: 50px;
+    color: #fff;
+}
+.blue1-text{
+    color: #52BEDC;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 700;
+}
+.disk-text{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+.disk-txt{
+    margin-left: 30px;
+    margin-top: -30px;
+}
+.final-buy-text{
+    margin-left: 780px;
+    margin-top: -490px;
+}
+.the-end{
+    margin-left: 200px;
+    margin-top: 90px;
+}
+.licenze{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 1000px;
+    margin-top: -45px;
+}
+.final{
+    color: #fff;
+    background-color: #000;
+    font-family: Roboto;
+}
